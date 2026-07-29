@@ -3232,6 +3232,22 @@
       },
       {
         "rank": 95,
+        "bib": "432",
+        "firstname": "Marco",
+        "lastname": "Veldt",
+        "nat": "NLD",
+        "team": "Veldt Infra B.V.",
+        "prolog": "7m",
+        "offroadtimeday1": "6h23m11s",
+        "tbrpenaltyday1": "",
+        "day1": "6h43m11s",
+        "diffday1": "+1h30m42s",
+        "total": "6h50m11s",
+        "diffoverall": "+1h36m42s",
+        "vehicle": ""
+      },
+      {
+        "rank": 96,
         "bib": "415",
         "firstname": "Greg",
         "lastname": "Simon",
@@ -3247,7 +3263,7 @@
         "vehicle": ""
       },
       {
-        "rank": 96,
+        "rank": 97,
         "bib": "337",
         "firstname": "Roberto Giulio",
         "lastname": "Rizzoli",
@@ -3263,7 +3279,7 @@
         "vehicle": ""
       },
       {
-        "rank": 97,
+        "rank": 98,
         "bib": "391",
         "firstname": "Andreas",
         "lastname": "Schlögl",
@@ -3279,7 +3295,7 @@
         "vehicle": ""
       },
       {
-        "rank": 98,
+        "rank": 99,
         "bib": "502",
         "firstname": "Dmitrii",
         "lastname": "Shavrin",
@@ -3295,7 +3311,7 @@
         "vehicle": ""
       },
       {
-        "rank": 99,
+        "rank": 100,
         "bib": "381",
         "firstname": "Pierre-Antoine",
         "lastname": "Colombie",
@@ -3311,7 +3327,7 @@
         "vehicle": ""
       },
       {
-        "rank": 100,
+        "rank": 101,
         "bib": "425",
         "firstname": "Daniel",
         "lastname": "Czeczelits",
@@ -3327,7 +3343,7 @@
         "vehicle": ""
       },
       {
-        "rank": 101,
+        "rank": 102,
         "bib": "488",
         "firstname": "Sebastian",
         "lastname": "Aguilera",
@@ -3343,7 +3359,7 @@
         "vehicle": ""
       },
       {
-        "rank": 102,
+        "rank": 103,
         "bib": "375",
         "firstname": "Viale",
         "lastname": "Fabio",
@@ -3359,7 +3375,7 @@
         "vehicle": ""
       },
       {
-        "rank": 103,
+        "rank": 104,
         "bib": "486",
         "firstname": "Steven",
         "lastname": "Yeoman",
@@ -3375,7 +3391,7 @@
         "vehicle": ""
       },
       {
-        "rank": 104,
+        "rank": 105,
         "bib": "349",
         "firstname": "Gustavo",
         "lastname": "Sanchez",
@@ -3391,7 +3407,7 @@
         "vehicle": ""
       },
       {
-        "rank": 105,
+        "rank": 106,
         "bib": "457",
         "firstname": "Alexander",
         "lastname": "Stracke",
@@ -3407,7 +3423,7 @@
         "vehicle": ""
       },
       {
-        "rank": 106,
+        "rank": 107,
         "bib": "313",
         "firstname": "Mark",
         "lastname": "De Lautour",
@@ -3423,7 +3439,7 @@
         "vehicle": ""
       },
       {
-        "rank": 107,
+        "rank": 108,
         "bib": "351",
         "firstname": "Mario",
         "lastname": "Geieregger",
@@ -3439,7 +3455,7 @@
         "vehicle": ""
       },
       {
-        "rank": 108,
+        "rank": 109,
         "bib": "456",
         "firstname": "Michael",
         "lastname": "Schindlauer",
@@ -3455,7 +3471,7 @@
         "vehicle": ""
       },
       {
-        "rank": 109,
+        "rank": 110,
         "bib": "315",
         "firstname": "Namki",
         "lastname": "Lee",
@@ -3471,7 +3487,7 @@
         "vehicle": ""
       },
       {
-        "rank": 110,
+        "rank": 111,
         "bib": "377",
         "firstname": "Dmitriy",
         "lastname": "Martynov",
@@ -3487,7 +3503,7 @@
         "vehicle": ""
       },
       {
-        "rank": 111,
+        "rank": 112,
         "bib": "471",
         "firstname": "Petr",
         "lastname": "Tichý",
@@ -3503,7 +3519,7 @@
         "vehicle": ""
       },
       {
-        "rank": 112,
+        "rank": 113,
         "bib": "451",
         "firstname": "Vlatko",
         "lastname": "Vurnek",
@@ -3519,7 +3535,7 @@
         "vehicle": ""
       },
       {
-        "rank": 113,
+        "rank": 114,
         "bib": "427",
         "firstname": "Martin",
         "lastname": "Hiden",
@@ -3535,7 +3551,7 @@
         "vehicle": ""
       },
       {
-        "rank": 114,
+        "rank": 115,
         "bib": "318",
         "firstname": "Eric",
         "lastname": "Groenewoud",
@@ -3551,7 +3567,7 @@
         "vehicle": ""
       },
       {
-        "rank": 115,
+        "rank": 116,
         "bib": "322",
         "firstname": "Simon",
         "lastname": "Nutter",
@@ -3567,7 +3583,7 @@
         "vehicle": ""
       },
       {
-        "rank": 116,
+        "rank": 117,
         "bib": "481",
         "firstname": "Gregory",
         "lastname": "Yungblut",
@@ -3583,7 +3599,7 @@
         "vehicle": ""
       },
       {
-        "rank": 117,
+        "rank": 118,
         "bib": "400",
         "firstname": "Thomas",
         "lastname": "Easton",
@@ -3599,7 +3615,7 @@
         "vehicle": ""
       },
       {
-        "rank": 118,
+        "rank": 119,
         "bib": "352",
         "firstname": "Bogdan",
         "lastname": "Apetri",
@@ -3615,7 +3631,7 @@
         "vehicle": ""
       },
       {
-        "rank": 119,
+        "rank": 120,
         "bib": "360",
         "firstname": "Xavier",
         "lastname": "Ferrer Soldevila",
@@ -3631,7 +3647,7 @@
         "vehicle": ""
       },
       {
-        "rank": 120,
+        "rank": 121,
         "bib": "461",
         "firstname": "Robert",
         "lastname": "Mckee",
@@ -3647,7 +3663,7 @@
         "vehicle": ""
       },
       {
-        "rank": 121,
+        "rank": 122,
         "bib": "480",
         "firstname": "Dan",
         "lastname": "Fredriksen",
@@ -3663,7 +3679,7 @@
         "vehicle": ""
       },
       {
-        "rank": 122,
+        "rank": 123,
         "bib": "397",
         "firstname": "Manuel",
         "lastname": "Brunner",
@@ -3679,7 +3695,7 @@
         "vehicle": ""
       },
       {
-        "rank": 123,
+        "rank": 124,
         "bib": "460",
         "firstname": "Lauri",
         "lastname": "Kodres",
@@ -3695,7 +3711,7 @@
         "vehicle": ""
       },
       {
-        "rank": 124,
+        "rank": 125,
         "bib": "365",
         "firstname": "Reimo",
         "lastname": "Ruubel",
@@ -3711,7 +3727,7 @@
         "vehicle": ""
       },
       {
-        "rank": 125,
+        "rank": 126,
         "bib": "380",
         "firstname": "Jaring",
         "lastname": "Huitema",
@@ -3727,7 +3743,7 @@
         "vehicle": ""
       },
       {
-        "rank": 126,
+        "rank": 127,
         "bib": "385",
         "firstname": "Jack",
         "lastname": "Pearce",
@@ -3743,7 +3759,7 @@
         "vehicle": ""
       },
       {
-        "rank": 127,
+        "rank": 128,
         "bib": "472",
         "firstname": "Julian",
         "lastname": "Uhl",
@@ -3759,7 +3775,7 @@
         "vehicle": ""
       },
       {
-        "rank": 128,
+        "rank": 129,
         "bib": "366",
         "firstname": "Jiří",
         "lastname": "Vališ",
@@ -3775,7 +3791,7 @@
         "vehicle": ""
       },
       {
-        "rank": 129,
+        "rank": 130,
         "bib": "314",
         "firstname": "Paul",
         "lastname": "Hunt",
@@ -3791,7 +3807,7 @@
         "vehicle": ""
       },
       {
-        "rank": 130,
+        "rank": 131,
         "bib": "403",
         "firstname": "George",
         "lastname": "Callaghan",
@@ -3807,7 +3823,7 @@
         "vehicle": ""
       },
       {
-        "rank": 131,
+        "rank": 132,
         "bib": "435",
         "firstname": "Martin",
         "lastname": "Drexler",
@@ -3823,7 +3839,7 @@
         "vehicle": ""
       },
       {
-        "rank": 132,
+        "rank": 133,
         "bib": "354",
         "firstname": "Borja",
         "lastname": "Francés Calatayud",
@@ -3839,7 +3855,7 @@
         "vehicle": ""
       },
       {
-        "rank": 133,
+        "rank": 134,
         "bib": "506",
         "firstname": "Karolis",
         "lastname": "Sipavičius",
@@ -3855,7 +3871,7 @@
         "vehicle": ""
       },
       {
-        "rank": 134,
+        "rank": 135,
         "bib": "449",
         "firstname": "Krunoslav",
         "lastname": "Vajdic",
@@ -3871,7 +3887,7 @@
         "vehicle": ""
       },
       {
-        "rank": 135,
+        "rank": 136,
         "bib": "405",
         "firstname": "Joe",
         "lastname": "Easton",
@@ -3887,7 +3903,7 @@
         "vehicle": ""
       },
       {
-        "rank": 136,
+        "rank": 137,
         "bib": "353",
         "firstname": "Gavin",
         "lastname": "Watkins",
@@ -3903,7 +3919,7 @@
         "vehicle": ""
       },
       {
-        "rank": 137,
+        "rank": 138,
         "bib": "494",
         "firstname": "Martin",
         "lastname": "Ortmans",
@@ -3919,7 +3935,7 @@
         "vehicle": ""
       },
       {
-        "rank": 138,
+        "rank": 139,
         "bib": "386",
         "firstname": "Marko",
         "lastname": "Perttilä",
@@ -3935,7 +3951,7 @@
         "vehicle": ""
       },
       {
-        "rank": 139,
+        "rank": 140,
         "bib": "327",
         "firstname": "Razvan",
         "lastname": "Avramescu",
@@ -3951,7 +3967,7 @@
         "vehicle": ""
       },
       {
-        "rank": 140,
+        "rank": 141,
         "bib": "442",
         "firstname": "Mauro",
         "lastname": "Favali",
@@ -3967,7 +3983,7 @@
         "vehicle": ""
       },
       {
-        "rank": 141,
+        "rank": 142,
         "bib": "367",
         "firstname": "Ondřej",
         "lastname": "Stuchlík",
@@ -3983,7 +3999,7 @@
         "vehicle": ""
       },
       {
-        "rank": 142,
+        "rank": 143,
         "bib": "402",
         "firstname": "Francisco",
         "lastname": "Mariner Baldovi",
@@ -3999,7 +4015,7 @@
         "vehicle": ""
       },
       {
-        "rank": 143,
+        "rank": 144,
         "bib": "463",
         "firstname": "Thibo",
         "lastname": "Freson",
@@ -4015,7 +4031,7 @@
         "vehicle": ""
       },
       {
-        "rank": 144,
+        "rank": 145,
         "bib": "387",
         "firstname": "Yair",
         "lastname": "Geffen",
@@ -4031,7 +4047,7 @@
         "vehicle": ""
       },
       {
-        "rank": 145,
+        "rank": 146,
         "bib": "420",
         "firstname": "Joaquín",
         "lastname": "Hinojosa Pérez",
@@ -4047,7 +4063,7 @@
         "vehicle": ""
       },
       {
-        "rank": 146,
+        "rank": 147,
         "bib": "455",
         "firstname": "David",
         "lastname": "Michael",
@@ -4063,7 +4079,7 @@
         "vehicle": ""
       },
       {
-        "rank": 147,
+        "rank": 148,
         "bib": "379",
         "firstname": "Pedro",
         "lastname": "Meirelles",
@@ -4079,7 +4095,7 @@
         "vehicle": ""
       },
       {
-        "rank": 148,
+        "rank": 149,
         "bib": "466",
         "firstname": "Simon",
         "lastname": "Olsson",
@@ -4095,7 +4111,7 @@
         "vehicle": ""
       },
       {
-        "rank": 149,
+        "rank": 150,
         "bib": "418",
         "firstname": "Xavier",
         "lastname": "Demeulemeester",
@@ -4111,7 +4127,7 @@
         "vehicle": ""
       },
       {
-        "rank": 150,
+        "rank": 151,
         "bib": "335",
         "firstname": "Jim",
         "lastname": "Fletcher",
@@ -4127,7 +4143,7 @@
         "vehicle": ""
       },
       {
-        "rank": 151,
+        "rank": 152,
         "bib": "350",
         "firstname": "Reinhard",
         "lastname": "Toifl",
@@ -4143,7 +4159,7 @@
         "vehicle": ""
       },
       {
-        "rank": 152,
+        "rank": 153,
         "bib": "437",
         "firstname": "Andrea",
         "lastname": "Lamberti",
@@ -4159,7 +4175,7 @@
         "vehicle": ""
       },
       {
-        "rank": 153,
+        "rank": 154,
         "bib": "319",
         "firstname": "Amaury",
         "lastname": "Baratin",
@@ -4175,7 +4191,7 @@
         "vehicle": ""
       },
       {
-        "rank": 154,
+        "rank": 155,
         "bib": "474",
         "firstname": "Jaime",
         "lastname": "Cadena",
@@ -4191,7 +4207,7 @@
         "vehicle": ""
       },
       {
-        "rank": 155,
+        "rank": 156,
         "bib": "421",
         "firstname": "Anton",
         "lastname": "Hafekost",
@@ -4207,7 +4223,7 @@
         "vehicle": ""
       },
       {
-        "rank": 156,
+        "rank": 157,
         "bib": "477",
         "firstname": "Elwan",
         "lastname": "Baratin",
@@ -4223,7 +4239,7 @@
         "vehicle": ""
       },
       {
-        "rank": 157,
+        "rank": 158,
         "bib": "407",
         "firstname": "Egidijus",
         "lastname": "Gailevicius",
@@ -4239,7 +4255,7 @@
         "vehicle": ""
       },
       {
-        "rank": 158,
+        "rank": 159,
         "bib": "522",
         "firstname": "Alessio",
         "lastname": "Serafini",
@@ -4255,7 +4271,7 @@
         "vehicle": ""
       },
       {
-        "rank": 159,
+        "rank": 160,
         "bib": "500",
         "firstname": "Daniel",
         "lastname": "Weise",
@@ -4271,7 +4287,7 @@
         "vehicle": ""
       },
       {
-        "rank": 160,
+        "rank": 161,
         "bib": "519",
         "firstname": "Patrik",
         "lastname": "Pohl",
@@ -4287,7 +4303,7 @@
         "vehicle": ""
       },
       {
-        "rank": 161,
+        "rank": 162,
         "bib": "505",
         "firstname": "Max",
         "lastname": "Honeyman",
@@ -4303,7 +4319,7 @@
         "vehicle": ""
       },
       {
-        "rank": 162,
+        "rank": 163,
         "bib": "309",
         "firstname": "Paul",
         "lastname": "Westgarth",
@@ -4319,7 +4335,7 @@
         "vehicle": ""
       },
       {
-        "rank": 163,
+        "rank": 164,
         "bib": "514",
         "firstname": "Reuben",
         "lastname": "Norris",
@@ -4335,7 +4351,7 @@
         "vehicle": ""
       },
       {
-        "rank": 164,
+        "rank": 165,
         "bib": "521",
         "firstname": "Marcel",
         "lastname": "Hernandez Aragone",
@@ -4351,7 +4367,7 @@
         "vehicle": ""
       },
       {
-        "rank": 165,
+        "rank": 166,
         "bib": "487",
         "firstname": "Diego",
         "lastname": "Mayen",
@@ -4367,7 +4383,7 @@
         "vehicle": ""
       },
       {
-        "rank": 166,
+        "rank": 167,
         "bib": "398",
         "firstname": "Miguel Ángel",
         "lastname": "Giménez Albiach",
@@ -4383,7 +4399,7 @@
         "vehicle": ""
       },
       {
-        "rank": 167,
+        "rank": 168,
         "bib": "430",
         "firstname": "Jay",
         "lastname": "Cunagin",
@@ -4399,7 +4415,7 @@
         "vehicle": ""
       },
       {
-        "rank": 168,
+        "rank": 169,
         "bib": "394",
         "firstname": "Jose Antonio",
         "lastname": "Martinez",
@@ -4415,7 +4431,7 @@
         "vehicle": ""
       },
       {
-        "rank": 169,
+        "rank": 170,
         "bib": "469",
         "firstname": "Hilton",
         "lastname": "Van Rooyen",
@@ -4431,7 +4447,7 @@
         "vehicle": ""
       },
       {
-        "rank": 170,
+        "rank": 171,
         "bib": "317",
         "firstname": "Vitalii",
         "lastname": "Iakovenko",
@@ -4447,7 +4463,7 @@
         "vehicle": ""
       },
       {
-        "rank": 171,
+        "rank": 172,
         "bib": "393",
         "firstname": "Markus",
         "lastname": "Beeler",
@@ -4463,7 +4479,7 @@
         "vehicle": ""
       },
       {
-        "rank": 172,
+        "rank": 173,
         "bib": "479",
         "firstname": "Roland",
         "lastname": "Kompan",
@@ -4479,7 +4495,7 @@
         "vehicle": ""
       },
       {
-        "rank": 173,
+        "rank": 174,
         "bib": "344",
         "firstname": "Osvaldo",
         "lastname": "Rojo",
@@ -4495,7 +4511,7 @@
         "vehicle": ""
       },
       {
-        "rank": 174,
+        "rank": 175,
         "bib": "330",
         "firstname": "Rafi",
         "lastname": "Weiss",
@@ -4511,7 +4527,7 @@
         "vehicle": ""
       },
       {
-        "rank": 175,
+        "rank": 176,
         "bib": "362",
         "firstname": "Sascha",
         "lastname": "Diemer",
@@ -4527,7 +4543,7 @@
         "vehicle": ""
       },
       {
-        "rank": 176,
+        "rank": 177,
         "bib": "493",
         "firstname": "Hans",
         "lastname": "Wipf",
@@ -4543,7 +4559,7 @@
         "vehicle": ""
       },
       {
-        "rank": 177,
+        "rank": 178,
         "bib": "503",
         "firstname": "Roy",
         "lastname": "Heessels",
@@ -4559,7 +4575,7 @@
         "vehicle": ""
       },
       {
-        "rank": 178,
+        "rank": 179,
         "bib": "476",
         "firstname": "John",
         "lastname": "Kalliavas",
@@ -4575,7 +4591,7 @@
         "vehicle": ""
       },
       {
-        "rank": 179,
+        "rank": 180,
         "bib": "492",
         "firstname": "Davide",
         "lastname": "Bettoni",
@@ -4591,7 +4607,7 @@
         "vehicle": ""
       },
       {
-        "rank": 180,
+        "rank": 181,
         "bib": "396",
         "firstname": "Mirco",
         "lastname": "Hoksbergen",
@@ -4607,7 +4623,7 @@
         "vehicle": ""
       },
       {
-        "rank": 181,
+        "rank": 182,
         "bib": "320",
         "firstname": "Andreas",
         "lastname": "Stedele",
@@ -4623,7 +4639,7 @@
         "vehicle": ""
       },
       {
-        "rank": 182,
+        "rank": 183,
         "bib": "388",
         "firstname": "Brenden",
         "lastname": "Murphy",
@@ -4639,7 +4655,7 @@
         "vehicle": ""
       },
       {
-        "rank": 183,
+        "rank": 184,
         "bib": "491",
         "firstname": "Waylon",
         "lastname": "Clark",
@@ -4655,7 +4671,7 @@
         "vehicle": ""
       },
       {
-        "rank": 184,
+        "rank": 185,
         "bib": "361",
         "firstname": "Maximilian",
         "lastname": "Schiek",
@@ -4671,7 +4687,7 @@
         "vehicle": ""
       },
       {
-        "rank": 185,
+        "rank": 186,
         "bib": "517",
         "firstname": "Jan",
         "lastname": "Révai",
@@ -4687,7 +4703,7 @@
         "vehicle": ""
       },
       {
-        "rank": 186,
+        "rank": 187,
         "bib": "346",
         "firstname": "Jari",
         "lastname": "Mutikainen",
@@ -4703,7 +4719,7 @@
         "vehicle": ""
       },
       {
-        "rank": 187,
+        "rank": 188,
         "bib": "511",
         "firstname": "Christopher",
         "lastname": "Horel",
@@ -4716,23 +4732,6 @@
         "diffday1": "+4h4m24s",
         "total": "9h23m53s",
         "diffoverall": "+4h10m24s",
-        "vehicle": ""
-      },
-      {
-        "rank": 188,
-        "bib": "432",
-        "firstname": "Marco",
-        "lastname": "Veldt",
-        "nat": "NLD",
-        "team": "Veldt Infra B.V.",
-        "prolog": "7m",
-        "offroadtimeday1": "4h50m6s",
-        "tbrpenaltyday1": "7h20m",
-        "day1": "12h30m6s",
-        "diffday1": "+7h17m37s",
-        "total": "12h37m6s",
-        "diffoverall": "+7h23m37s",
-        "status": "AB1",
         "vehicle": ""
       },
       {
