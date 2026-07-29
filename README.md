@@ -1,4 +1,15 @@
-# Romaniacs Fast Site
+# Romaniacs Results Viewer
+
+Static GitHub Pages viewer inspired by a live timing sheet:
+
+- light rally/timing-sheet layout
+- day tabs
+- day progress / overall toggle
+- class plates
+- search
+- rider rows with expandable checkpoint details
+- browser checks for refreshed data every 60 seconds
+- GitHub Action refreshes data every 5 minutes
 
 Fastest public hosting for a snapshot:
 
@@ -22,7 +33,15 @@ Auto-refresh hosting:
 6. Go to `Actions` and enable workflows if GitHub asks.
 7. Run `Update Romaniacs Progress` once manually, or wait for the schedule.
 
-The workflow refreshes `data/progress.json` every 5 minutes. The webpage itself checks for a newer `data/progress.json` every 60 seconds.
+The workflow refreshes available official feeds into:
+
+- `data/day1/progress.json`
+- `data/day1/details.json`
+- `data/day1/overall.json`
+- later `day2`/`day3`/`day4` files when the official site publishes them
+- `data/progress.json` for backwards compatibility
+
+The webpage itself checks for newer data every 60 seconds.
 
 Local preview:
 

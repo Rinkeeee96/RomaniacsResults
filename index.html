@@ -1,259 +1,84 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Romaniacs Adventure Day 1 Progress</title>
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #090b10;
-      --panel: #141824;
-      --panel2: #1d2332;
-      --text: #f6f7fb;
-      --muted: #aeb7ca;
-      --accent: #f4c542;
-      --ok: #59d88f;
-      --warn: #ff8066;
-      --line: rgba(255,255,255,.12);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background:
-        radial-gradient(circle at 20% 10%, rgba(244,197,66,.22), transparent 32rem),
-        radial-gradient(circle at 90% 0%, rgba(255,80,80,.14), transparent 28rem),
-        linear-gradient(145deg, #080a10, #111827 58%, #07080c);
-      color: var(--text);
-      min-height: 100vh;
-    }
-    header {
-      padding: 32px clamp(16px, 4vw, 48px) 18px;
-      border-bottom: 1px solid var(--line);
-    }
-    h1 {
-      margin: 0;
-      font-size: clamp(28px, 5vw, 56px);
-      letter-spacing: -0.055em;
-      line-height: .95;
-    }
-    .sub {
-      color: var(--muted);
-      margin-top: 12px;
-      max-width: 850px;
-      line-height: 1.5;
-    }
-    main { padding: 24px clamp(12px, 3vw, 36px) 48px; }
-    .toolbar {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      align-items: center;
-      margin-bottom: 18px;
-    }
-    .pill, input {
-      border: 1px solid var(--line);
-      background: rgba(20,24,36,.8);
-      color: var(--text);
-      border-radius: 999px;
-      padding: 10px 14px;
-    }
-    input {
-      min-width: min(420px, 100%);
-      flex: 1;
-      outline: none;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 620px), 1fr));
-      gap: 22px;
-    }
-    section {
-      background: rgba(20,24,36,.82);
-      border: 1px solid var(--line);
-      border-radius: 22px;
-      overflow: hidden;
-      box-shadow: 0 20px 80px rgba(0,0,0,.35);
-    }
-    section h2 {
-      margin: 0;
-      padding: 18px 18px 8px;
-      font-size: 26px;
-      letter-spacing: -.03em;
-    }
-    .count {
-      color: var(--muted);
-      padding: 0 18px 16px;
-      font-size: 14px;
-    }
-    .table-wrap { overflow-x: auto; }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      min-width: 760px;
-    }
-    th, td {
-      padding: 12px 14px;
-      border-top: 1px solid var(--line);
-      text-align: left;
-      vertical-align: top;
-      font-size: 14px;
-    }
-    th {
-      color: var(--muted);
-      font-weight: 700;
-      background: rgba(255,255,255,.035);
-      position: sticky;
-      top: 0;
-    }
-    tr:hover td { background: rgba(255,255,255,.035); }
-    .rank { color: var(--accent); font-weight: 800; }
-    .status-ok { color: var(--ok); font-weight: 800; }
-    .status-ab { color: var(--warn); font-weight: 800; }
-    .checkpoints {
-      color: var(--muted);
-      line-height: 1.55;
-      max-width: 520px;
-    }
-    .name { font-weight: 750; }
-    footer {
-      color: var(--muted);
-      padding: 0 clamp(16px, 4vw, 48px) 34px;
-      font-size: 13px;
-    }
-    a { color: var(--accent); }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Romaniacs ’26 — Race Progress</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314151A'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='14' font-weight='bold' fill='%23F6F4EE' text-anchor='middle'%3ECP%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --paper:#faf9f5;--sheet:#fff;--ink:#14151a;--soft:#5f626a;--rule:#ddd9ce;--hard:#14151a;
+  --red:#c81e1e;--green:#1f6e43;--amber:#b98a12;--blue:#315f9f;--shadow:0 18px 70px rgba(20,21,26,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0} html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Arial Narrow","Roboto Condensed","Saira Condensed",Arial,sans-serif;font-size:15px;line-height:1.42}
+button,input{font:inherit} button{cursor:pointer} ::selection{background:var(--ink);color:var(--paper)}
+.topstrip{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 18px;border-bottom:1px solid var(--rule);font-family:"IBM Plex Mono","SFMono-Regular",monospace;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--soft)}
+.live{display:flex;align-items:center;gap:8px;white-space:nowrap}.dot{width:8px;height:8px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}.dot.err{background:var(--red);animation:none}.dot.stale{background:var(--amber);animation:none}@keyframes pulse{50%{opacity:.35}}
+.refreshbtn{border:0;background:transparent;color:inherit;text-decoration:underline;text-underline-offset:3px}.refreshbtn:hover{color:var(--ink)}
+.masthead{padding:28px 18px 22px;border-bottom:3px solid var(--hard);background:linear-gradient(180deg,#fff 0%,#faf9f5 100%)}
+h1{font-size:clamp(48px,10vw,104px);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;font-weight:900}.yr{color:var(--red)}
+.sub{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:13px;color:var(--soft);font-family:"IBM Plex Mono","SFMono-Regular",monospace;font-size:12px;text-transform:uppercase;letter-spacing:.05em}.sub b{color:var(--ink)}
+.controls{display:flex;justify-content:space-between;gap:14px;padding:16px 18px;border-bottom:1px solid var(--rule);background:#fff;position:sticky;top:0;z-index:4}.daytabs,.rightctl,.viewtoggle{display:flex;align-items:center;gap:8px}.rightctl{flex-wrap:wrap;justify-content:flex-end}.daytab,.viewtoggle button{border:1px solid var(--hard);background:#fff;color:var(--ink);padding:7px 11px;text-transform:uppercase;font-weight:900;letter-spacing:.02em}.daytab.on,.viewtoggle button.on{background:var(--ink);color:var(--paper)}.daytab.disabled{opacity:.35;cursor:not-allowed}.search{border:1px solid var(--hard);background:#fff;color:var(--ink);padding:8px 10px;min-width:min(330px,100%)}
+.plates{display:grid;grid-template-columns:repeat(auto-fit,minmax(116px,1fr));gap:1px;background:var(--hard);border-bottom:3px solid var(--hard)}.plate{border:0;background:var(--sheet);padding:12px 10px;text-align:left;min-height:76px}.plate.on{background:var(--ink);color:var(--paper)}.plate .label{display:block;text-transform:uppercase;font-weight:950;font-size:20px;letter-spacing:-.03em}.plate .meta{display:flex;justify-content:space-between;gap:8px;margin-top:7px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--soft)}.plate.on .meta{color:#c7c8cc}.swatch{width:22px;height:4px;display:inline-block;margin-bottom:8px;background:var(--class-color,#222)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));border-bottom:1px solid var(--rule);background:#fff}.stat{padding:12px 18px;border-right:1px solid var(--rule)}.stat:last-child{border-right:0}.stat .k{font-family:"IBM Plex Mono",monospace;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--soft)}.stat .v{font-size:22px;font-weight:950;letter-spacing:-.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.stat .v.small{font-size:15px;letter-spacing:0;font-weight:800}
+.sheet{padding:18px}.tablewrap{background:var(--sheet);border:1px solid var(--hard);box-shadow:var(--shadow);overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:860px}th{position:sticky;top:78px;z-index:2;background:var(--ink);color:var(--paper);font-family:"IBM Plex Mono",monospace;font-size:11px;text-align:left;text-transform:uppercase;letter-spacing:.08em;padding:9px 10px}td{border-bottom:1px solid var(--rule);padding:10px;vertical-align:top}.rider{cursor:pointer}.rider:hover{background:#f1efe8}.rider.open{background:var(--ink);color:var(--paper)}.rank{font-weight:950;font-size:18px}.bib{font-family:"IBM Plex Mono",monospace;font-weight:700}.rname{font-weight:950;text-transform:uppercase;letter-spacing:-.02em}.muted,.team{color:var(--soft);font-size:12px}.rider.open .muted,.rider.open .team{color:#c6c7cc}.status{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:900}.ok{color:var(--green)}.ab{color:var(--red)}.last{font-weight:900}.cpof{font-family:"IBM Plex Mono",monospace;color:var(--soft);font-size:12px}.detailrow td{background:#f7f5ee;padding:0}.detail{padding:13px 14px 16px}.detailgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}.cpbox{border:1px solid var(--rule);background:#fff;padding:8px 9px}.cpbox.late{border-color:var(--red);box-shadow:inset 4px 0 0 var(--red)}.cpname{font-weight:950;text-transform:uppercase}.cptime{font-family:"IBM Plex Mono",monospace;font-size:13px;margin-top:2px}.cpmeta{font-size:12px;color:var(--soft);margin-top:4px}.msg{padding:34px;text-align:center}.msg b{display:block;font-size:28px;letter-spacing:-.04em}footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:0 18px 26px;color:var(--soft);font-family:"IBM Plex Mono",monospace;font-size:11px}a{color:inherit}
+@media(max-width:760px){.topstrip{align-items:flex-start;flex-direction:column}.controls{position:static;display:block}.daytabs{overflow:auto;margin-bottom:10px}.rightctl{justify-content:stretch}.viewtoggle,.search{width:100%}.viewtoggle button{flex:1}.sheet{padding:10px}table{min-width:680px}th{top:0}.hidem{display:none}.masthead{padding-top:22px}h1{font-size:clamp(42px,16vw,72px)}}
+@media(prefers-reduced-motion:reduce){*,.dot{animation:none!important;transition:none!important}}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Romaniacs Adventure Day 1 Progress</h1>
-    <p class="sub">
-      Unofficial viewer for Red Bull Romaniacs 2026 Day 1 Adventure Lite/Soft and Adventure Core checkpoint progress.
-      The page checks for updated data every 60 seconds.
-    </p>
-  </header>
-  <main>
-    <div class="toolbar">
-      <span class="pill" id="updated">Loading data...</span>
-      <input id="search" type="search" placeholder="Search rider, bib, country, checkpoint...">
-    </div>
-    <div class="grid" id="classes"></div>
-  </main>
-  <footer>
-    Source data copied from the official Red Bull Romaniacs JSON feed. This page is a lightweight public viewer.
-  </footer>
-
-  <script>
-    const classConfig = [
-      ["adventure-soft", "Adventure Lite / Soft"],
-      ["adventure-core", "Adventure Core"],
-    ];
-
-    const pointOrder = ["start", "cp1", "cp3", "cp7", "cp9", "cp10", "cp11", "cp14", "cp15", "finish"];
-    const labels = {
-      start: "Start",
-      cp1: "CP1",
-      cp3: "CP3",
-      cp7: "CP7",
-      cp9: "CP9/SPin",
-      cp10: "CP10/SPout",
-      cp11: "CP11",
-      cp14: "CP14/LPin",
-      cp15: "CP15/LPout",
-      finish: "Finish",
-    };
-
-    let allRows = [];
-
-    function clean(value) {
-      return String(value ?? "").trim();
-    }
-
-    function isRealTime(value) {
-      const v = clean(value);
-      return v && v !== "-" && v.toLowerCase() !== "not used";
-    }
-
-    function checkpoints(row) {
-      return pointOrder
-        .filter((key) => isRealTime(row[key]))
-        .map((key) => ({ key, label: labels[key], value: clean(row[key]) }));
-    }
-
-    function render() {
-      const q = document.getElementById("search").value.trim().toLowerCase();
-      const root = document.getElementById("classes");
-      root.innerHTML = "";
-
-      for (const [classKey, title] of classConfig) {
-        const rows = allRows
-          .filter((row) => row.classKey === classKey)
-          .filter((row) => !q || row.search.includes(q));
-
-        const section = document.createElement("section");
-        section.innerHTML = `
-          <h2>${title}</h2>
-          <div class="count">${rows.length} riders shown</div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Bib</th>
-                  <th>Name</th>
-                  <th>Status</th>
-                  <th>Last Recorded</th>
-                  <th>Total</th>
-                  <th>Passed Checkpoints</th>
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
-          </div>
-        `;
-
-        const tbody = section.querySelector("tbody");
-        for (const row of rows) {
-          const pts = checkpoints(row);
-          const last = pts.at(-1);
-          const status = clean(row.status) || "OK";
-          const tr = document.createElement("tr");
-          tr.innerHTML = `
-            <td class="rank">${clean(row.rank) || ""}</td>
-            <td>${clean(row.bib)}</td>
-            <td><span class="name">${clean(row.firstname)} ${clean(row.lastname)}</span><br><span class="checkpoints">${clean(row.nat)}</span></td>
-            <td class="${status === "OK" ? "status-ok" : "status-ab"}">${status}</td>
-            <td>${last ? `${last.label} ${last.value}` : "-"}</td>
-            <td>${clean(row.total) || "-"}</td>
-            <td class="checkpoints">${pts.map((p) => `${p.label} ${p.value}`).join("; ")}</td>
-          `;
-          tbody.appendChild(tr);
-        }
-        root.appendChild(section);
-      }
-    }
-
-    async function loadData() {
-      const res = await fetch(`data/progress.json?t=${Date.now()}`, { cache: "no-store" });
-      const json = await res.json();
-        allRows = classConfig.flatMap(([classKey]) =>
-          (json.data[classKey] || []).map((row) => {
-            const enriched = { ...row, classKey };
-            enriched.search = JSON.stringify(enriched).toLowerCase();
-            return enriched;
-          })
-        );
-        document.getElementById("updated").textContent = `Loaded ${allRows.length} riders · ${new Date().toLocaleTimeString()}`;
-        render();
-    }
-
-    loadData().catch((error) => {
-        document.getElementById("updated").textContent = `Could not load data: ${error.message}`;
-      });
-    setInterval(() => loadData().catch(console.error), 60000);
-
-    document.getElementById("search").addEventListener("input", render);
-  </script>
+<div class="topstrip">
+  <div class="live"><span class="dot" id="dot"></span><span id="updmsg">loading…</span></div>
+  <div class="live"><span id="countdown"></span><button class="refreshbtn" id="refreshbtn" type="button">Refresh now</button></div>
+</div>
+<header class="masthead">
+  <h1>Romaniacs <span class="yr">’26</span></h1>
+  <div class="sub"><span><b>Race progress</b> · unofficial timing sheet</span><span>Sibiu, Romania</span><span>GitHub Pages live viewer</span></div>
+</header>
+<div class="controls">
+  <nav class="daytabs" id="daytabs" aria-label="Race day"></nav>
+  <div class="rightctl">
+    <div class="viewtoggle" role="tablist"><button id="vday" class="on" type="button">Day progress</button><button id="voverall" type="button">Overall</button></div>
+    <input class="search" id="search" type="search" placeholder="rider / bib / team / nat" aria-label="Filter riders">
+  </div>
+</div>
+<div class="plates" id="plates" role="tablist" aria-label="Class"></div>
+<div class="stats" id="stats"></div>
+<div class="sheet"><div class="tablewrap" id="tablewrap"></div></div>
+<footer><span>Unofficial personal viewer, not affiliated with Red Bull Romaniacs.</span><span>Data copied from <a href="https://www.redbullromaniacs.com/results" target="_blank" rel="noopener">redbullromaniacs.com</a> by scheduled workflow.</span></footer>
+<script>
+const CLASS_META={gold:{label:'Gold',color:'#c9a227'},silver:{label:'Silver',color:'#9aa0a6'},bronze:{label:'Bronze',color:'#a46628'},iron:{label:'Iron',color:'#4a4e54'},atom:{label:'Atom',color:'#2e7d9a'},'adventure-hard':{label:'Adv Ultimate',color:'#6c3e8f'},'adventure-core':{label:'Adv Core',color:'#1f6e43'},'adventure-soft':{label:'Adv Lite',color:'#3e6db5'},'emoto-hard':{label:'eMoto Expert',color:'#00867d'},'emoto-soft':{label:'eMoto Hobby',color:'#00a19a'}};
+const CLASS_ORDER=Object.keys(CLASS_META), DAYS=['day1','day2','day3','day4'], REFRESH_S=60;
+const state={day:'day1',view:'day',cls:'adventure-soft',q:'',cache:{},open:new Set(),left:REFRESH_S,loading:false,error:null};
+const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const used=v=>v!==undefined&&v!==null&&v!==''&&v!=='not used'; const reached=v=>used(v)&&v!=='-';
+const fileFor=()=>state.view==='overall'?'overall':'progress';
+function pathFor(day,file){return `data/${day}/${file}.json?t=${Date.now()}`}
+function statusText(r){return String(r.status||'').trim()||'OK'}
+function isLate(arr,tko){return reached(arr)&&reached(tko)&&String(arr)>String(tko)}
+function riderName(r){return `${r.firstname||''} ${r.lastname||''}`.trim()}
+function cpKeys(r){const keys=Object.keys(r).filter(k=>/^cp\d+$/.test(k)).sort((a,b)=>+a.slice(2)-+b.slice(2));return ['start',...keys,'finish'].filter(k=>used(r[k]))}
+function cpLabel(k){return k==='start'?'Start':k==='finish'?'Finish':k.toUpperCase()}
+function cpNum(k){return /^cp\d+$/.test(k)?k.slice(2):k==='finish'?'finish':''}
+function cpInfo(r,k){const n=cpNum(k);return{key:k,label:cpLabel(k),arr:r[k],ride:n?r[`ridetime${n}`]:'',diff:n?(r[`diffcp${n}`]||r[`diff${n}`]||r.difffinish):'',tko:n?r[`tko_cp${n}`]:r.tkofinish,overall:n?r[`overall_cp${n}`]:(r.overalltimefinish||''),rank:n?r[`rank_cp${n}`]:(r.rank_finish||'')}}
+function lastPoint(r){return cpKeys(r).filter(k=>reached(r[k])).map(k=>cpInfo(r,k)).at(-1)}
+async function load(force=false){const key=state.day+'|'+fileFor();if(!force&&state.cache[key]&&Date.now()-state.cache[key].at<55000){render();return}state.loading=true;state.error=null;renderStatus();try{const res=await fetch(pathFor(state.day,fileFor()),{cache:'no-store'});if(res.status===404){state.cache[key]={json:null,at:Date.now()}}else if(!res.ok)throw new Error('HTTP '+res.status);else state.cache[key]={json:await res.json(),at:Date.now()};}catch(e){state.error=e.message||'fetch failed'}state.loading=false;state.left=REFRESH_S;render()}
+function current(){return state.cache[state.day+'|'+fileFor()]}
+function render(){renderStatus();renderDayTabs();const data=current()?.json?.data;renderPlates(data);const rows=data?.[state.cls];renderStats(rows);renderTable(rows)}
+function renderStatus(){const dot=$('#dot'),msg=$('#updmsg');if(state.error){dot.className='dot err';msg.textContent='update failed, retrying';return}if(state.loading){dot.className='dot';msg.textContent='updating…';return}const c=current();if(!c){dot.className='dot';msg.textContent='loading…';return}dot.className=c.json?'dot':'dot stale';msg.textContent=c.json?`updated ${new Date(c.at).toLocaleTimeString('nl-NL')}`:'no data for this view yet'}
+function renderDayTabs(){$('#daytabs').innerHTML=DAYS.map(d=>`<button class="daytab ${d===state.day?'on':''}" data-day="${d}" type="button">Day ${d.slice(3)}</button>`).join('')}
+function renderPlates(data){const keys=data?CLASS_ORDER.filter(k=>Array.isArray(data[k])&&data[k].length):['adventure-soft','adventure-core'];if(!keys.includes(state.cls))state.cls=keys[0]||'adventure-soft';$('#plates').innerHTML=keys.map(k=>{const m=CLASS_META[k]||{label:k,color:'#222'},n=data?.[k]?.length||0;return`<button class="plate ${k===state.cls?'on':''}" data-cls="${k}" style="--class-color:${m.color}" type="button"><span class="swatch"></span><span class="label">${esc(m.label)}</span><span class="meta"><span>${n} riders</span><span>${esc(k)}</span></span></button>`}).join('')}
+function stat(k,v,small=false){return`<div class="stat"><div class="k">${k}</div><div class="v ${small?'small':''}">${v}</div></div>`}
+function renderStats(rows){if(!rows){$('#stats').innerHTML=stat('Status','No data',true)+stat('View',esc(state.day+' / '+fileFor()),true);return}const finished=rows.filter(r=>reached(r.finish)).length, ab=rows.filter(r=>statusText(r)==='AB').length, leader=rows[0];$('#stats').innerHTML=stat('Riders',rows.length)+stat('Finished',finished)+stat('AB shown',ab)+stat('Leader',leader?esc(riderName(leader)): '—',true)}
+function matchQ(r){const q=state.q.toLowerCase();if(!q)return true;return JSON.stringify(r).toLowerCase().includes(q)}
+function renderTable(rows){const wrap=$('#tablewrap');if(!rows){wrap.innerHTML='<div class="msg"><b>No data yet</b>This day/view has not been published in the static feed.</div>';return}const list=rows.filter(matchQ);if(!list.length){wrap.innerHTML='<div class="msg"><b>No riders match</b>Clear the search filter.</div>';return}let html='<table><thead><tr><th>#</th><th>Bib</th><th>Rider</th><th class="hidem">Bike / team</th><th>Status</th><th>Last recorded</th><th>Total</th><th>Checkpoints</th></tr></thead><tbody>';for(const r of list){const bib=String(r.bib||''),open=state.open.has(bib),pts=cpKeys(r).map(k=>cpInfo(r,k)).filter(p=>reached(p.arr)),last=lastPoint(r),st=statusText(r),hit=pts.length;html+=`<tr class="rider ${open?'open':''}" data-bib="${esc(bib)}" tabindex="0"><td class="rank">${esc(r.rank||'')}</td><td class="bib">${esc(bib)}</td><td><div class="rname">${esc(riderName(r))}</div><div class="muted">${esc(r.nat||'')}</div></td><td class="hidem"><div>${esc(r.bike||r.vehicle||'')}</div><div class="team">${esc(r.team||'')}</div></td><td><span class="status ${st==='OK'?'ok':'ab'}">${esc(st)}</span></td><td><div class="last">${last?esc(last.label+' '+last.arr):'—'}</div><div class="cpof">${hit} points</div></td><td>${esc(r.total||r.offroadtime||'—')}</td><td>${pts.map(p=>`<span class="cpof">${esc(p.label)}</span>`).join(' ')}</td></tr>`;if(open)html+=detailRow(r,pts)}html+='</tbody></table>';wrap.innerHTML=html}
+function detailRow(r,pts){return`<tr class="detailrow"><td colspan="8"><div class="detail"><div class="detailgrid">${pts.map(p=>`<div class="cpbox ${isLate(p.arr,p.tko)?'late':''}"><div class="cpname">${esc(p.label)}</div><div class="cptime">${esc(p.arr)}</div><div class="cpmeta">${[p.ride&&'ride '+p.ride,p.diff&&'diff '+p.diff,p.overall&&'overall '+p.overall,p.rank&&'rank '+p.rank,p.tko&&'timebar '+p.tko].filter(Boolean).map(esc).join(' · ')}</div></div>`).join('')}</div></div></td></tr>`}
+document.addEventListener('click',e=>{const day=e.target.closest('.daytab');if(day){state.day=day.dataset.day;state.open.clear();load(true);return}const plate=e.target.closest('.plate');if(plate){state.cls=plate.dataset.cls;state.open.clear();render();return}const rider=e.target.closest('tr.rider');if(rider){const b=rider.dataset.bib;state.open.has(b)?state.open.delete(b):state.open.add(b);render();return}});
+$('#vday').onclick=()=>{state.view='day';$('#vday').classList.add('on');$('#voverall').classList.remove('on');state.open.clear();load(true)};$('#voverall').onclick=()=>{state.view='overall';$('#voverall').classList.add('on');$('#vday').classList.remove('on');state.open.clear();load(true)};$('#search').oninput=e=>{state.q=e.target.value.trim();render()};$('#refreshbtn').onclick=()=>load(true);
+setInterval(()=>{state.left=Math.max(0,state.left-1);$('#countdown').textContent='next check '+Math.floor(state.left/60)+':'+String(state.left%60).padStart(2,'0');if(state.left===0)load(true)},1000);
+load(true);
+</script>
 </body>
 </html>
