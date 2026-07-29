@@ -330,13 +330,12 @@
         "nat": "ROU",
         "bike": "KTM 300 2stroke",
         "prolog": "4m20s",
-        "offroadtimeday1": "8h55m51s",
-        "tbrpenaltyday1": "3h35m",
-        "day1": "12h30m51s",
-        "diffday1": "+5h51m36s",
-        "total": "12h35m11s",
-        "diffoverall": "+5h55m16s",
-        "status": "AB1",
+        "offroadtimeday1": "10h11m56s",
+        "tbrpenaltyday1": "",
+        "day1": "10h11m56s",
+        "diffday1": "+3h32m41s",
+        "total": "10h16m16s",
+        "diffoverall": "+3h36m21s",
         "vehicle": ""
       },
       {
@@ -1067,22 +1066,6 @@
       },
       {
         "rank": 42,
-        "bib": "182",
-        "firstname": "Jon",
-        "lastname": "Atin Elorza",
-        "nat": "ESP",
-        "team": "Txorronea",
-        "prolog": "7m",
-        "offroadtimeday1": "7h48m44s",
-        "tbrpenaltyday1": "",
-        "day1": "7h48m44s",
-        "diffday1": "+2h22m46s",
-        "total": "7h55m44s",
-        "diffoverall": "+2h29m6s",
-        "vehicle": ""
-      },
-      {
-        "rank": 43,
         "bib": "105",
         "firstname": "Gabriele",
         "lastname": "Del Pino",
@@ -1098,7 +1081,7 @@
         "vehicle": ""
       },
       {
-        "rank": 44,
+        "rank": 43,
         "bib": "128",
         "firstname": "Rüdiger",
         "lastname": "Wolfgruber",
@@ -1114,7 +1097,7 @@
         "vehicle": ""
       },
       {
-        "rank": 45,
+        "rank": 44,
         "bib": "137",
         "firstname": "Lukas",
         "lastname": "Heckenbichler",
@@ -1130,7 +1113,7 @@
         "vehicle": ""
       },
       {
-        "rank": 46,
+        "rank": 45,
         "bib": "129",
         "firstname": "Simon",
         "lastname": "Sellinger",
@@ -1143,6 +1126,22 @@
         "diffday1": "+2h41m20s",
         "total": "8h14m18s",
         "diffoverall": "+2h47m40s",
+        "vehicle": ""
+      },
+      {
+        "rank": 46,
+        "bib": "182",
+        "firstname": "Jon",
+        "lastname": "Atin Elorza",
+        "nat": "ESP",
+        "team": "Txorronea",
+        "prolog": "7m",
+        "offroadtimeday1": "7h48m44s",
+        "tbrpenaltyday1": "",
+        "day1": "8h8m44s",
+        "diffday1": "+2h42m46s",
+        "total": "8h15m44s",
+        "diffoverall": "+2h49m6s",
         "vehicle": ""
       },
       {
@@ -1547,36 +1546,34 @@
       },
       {
         "rank": 72,
-        "bib": "119",
-        "firstname": "Manolo",
-        "lastname": "Ortiz",
-        "nat": "ESP",
-        "team": "GUBRA KTM",
-        "prolog": "7m",
-        "offroadtimeday1": "7h39m20s",
-        "tbrpenaltyday1": "5h35m",
-        "day1": "13h14m20s",
-        "diffday1": "+7h48m22s",
-        "total": "13h21m20s",
-        "diffoverall": "+7h54m42s",
-        "status": "AB1",
-        "vehicle": ""
-      },
-      {
-        "rank": 73,
         "bib": "160",
         "firstname": "Nicolai",
         "lastname": "Schork",
         "nat": "DEU",
         "team": "Endurides",
         "prolog": "7m",
-        "offroadtimeday1": "7h46m47s",
-        "tbrpenaltyday1": "5h35m",
-        "day1": "13h21m47s",
-        "diffday1": "+7h55m49s",
-        "total": "13h28m47s",
-        "diffoverall": "+8h2m9s",
-        "status": "AB1",
+        "offroadtimeday1": "10h16m58s",
+        "tbrpenaltyday1": "",
+        "day1": "10h16m58s",
+        "diffday1": "+4h51m",
+        "total": "10h23m58s",
+        "diffoverall": "+4h57m20s",
+        "vehicle": ""
+      },
+      {
+        "rank": 73,
+        "bib": "119",
+        "firstname": "Manolo",
+        "lastname": "Ortiz",
+        "nat": "ESP",
+        "team": "GUBRA KTM",
+        "prolog": "7m",
+        "offroadtimeday1": "10h19m6s",
+        "tbrpenaltyday1": "",
+        "day1": "10h19m6s",
+        "diffday1": "+4h53m8s",
+        "total": "10h26m6s",
+        "diffoverall": "+4h59m28s",
         "vehicle": ""
       },
       {
@@ -1587,34 +1584,64 @@
         "nat": "NLD",
         "team": "Zenduro",
         "prolog": "7m",
-        "offroadtimeday1": "7h49m26s",
-        "tbrpenaltyday1": "5h35m",
-        "day1": "13h24m26s",
-        "diffday1": "+7h58m28s",
-        "total": "13h31m26s",
-        "diffoverall": "+8h4m48s",
-        "status": "AB1",
+        "offroadtimeday1": "10h19m12s",
+        "tbrpenaltyday1": "",
+        "day1": "10h19m12s",
+        "diffday1": "+4h53m14s",
+        "total": "10h26m12s",
+        "diffoverall": "+4h59m34s",
         "vehicle": ""
       },
       {
         "rank": 75,
+        "bib": "145",
+        "firstname": "Sasha",
+        "lastname": "Tolocenco",
+        "nat": "MDA",
+        "team": "Titan Motosport ",
+        "prolog": "7m",
+        "offroadtimeday1": "10h20m26s",
+        "tbrpenaltyday1": "",
+        "day1": "10h20m26s",
+        "diffday1": "+4h54m28s",
+        "total": "10h27m26s",
+        "diffoverall": "+5h48s",
+        "vehicle": ""
+      },
+      {
+        "rank": 76,
         "bib": "136",
         "firstname": "Thomas",
         "lastname": "Braun",
         "nat": "DEU",
         "team": "Endurides",
         "prolog": "5m20s",
-        "offroadtimeday1": "8h13m43s",
-        "tbrpenaltyday1": "5h35m",
-        "day1": "13h48m43s",
-        "diffday1": "+8h22m45s",
-        "total": "13h54m3s",
-        "diffoverall": "+8h27m25s",
-        "status": "AB1",
+        "offroadtimeday1": "10h44m3s",
+        "tbrpenaltyday1": "",
+        "day1": "10h44m3s",
+        "diffday1": "+5h18m5s",
+        "total": "10h49m23s",
+        "diffoverall": "+5h22m45s",
         "vehicle": ""
       },
       {
-        "rank": 76,
+        "rank": 77,
+        "bib": "186",
+        "firstname": "Jorge Ivan",
+        "lastname": "Ramirez Daza",
+        "nat": "COL",
+        "team": "Enduro Guatapuri (Valledupar)",
+        "prolog": "7m",
+        "offroadtimeday1": "11h14m10s",
+        "tbrpenaltyday1": "",
+        "day1": "11h14m10s",
+        "diffday1": "+5h48m12s",
+        "total": "11h21m10s",
+        "diffoverall": "+5h54m32s",
+        "vehicle": ""
+      },
+      {
+        "rank": 78,
         "bib": "148",
         "firstname": "Ignacio",
         "lastname": "Sanchis",
@@ -1627,40 +1654,6 @@
         "diffday1": "+8h24m15s",
         "total": "13h57m13s",
         "diffoverall": "+8h30m35s",
-        "status": "AB1",
-        "vehicle": ""
-      },
-      {
-        "rank": 77,
-        "bib": "145",
-        "firstname": "Sasha",
-        "lastname": "Tolocenco",
-        "nat": "MDA",
-        "team": "Titan Motosport ",
-        "prolog": "7m",
-        "offroadtimeday1": "8h16m10s",
-        "tbrpenaltyday1": "5h35m",
-        "day1": "13h51m10s",
-        "diffday1": "+8h25m12s",
-        "total": "13h58m10s",
-        "diffoverall": "+8h31m32s",
-        "status": "AB1",
-        "vehicle": ""
-      },
-      {
-        "rank": 78,
-        "bib": "186",
-        "firstname": "Jorge Ivan",
-        "lastname": "Ramirez Daza",
-        "nat": "COL",
-        "team": "Enduro Guatapuri (Valledupar)",
-        "prolog": "7m",
-        "offroadtimeday1": "8h21m44s",
-        "tbrpenaltyday1": "5h35m",
-        "day1": "13h56m44s",
-        "diffday1": "+8h30m46s",
-        "total": "14h3m44s",
-        "diffoverall": "+8h37m6s",
         "status": "AB1",
         "vehicle": ""
       },
@@ -3480,22 +3473,6 @@
       },
       {
         "rank": 110,
-        "bib": "494",
-        "firstname": "Martin",
-        "lastname": "Ortmans",
-        "nat": "BEL",
-        "team": "",
-        "prolog": "7m",
-        "offroadtimeday1": "6h58m19s",
-        "tbrpenaltyday1": "",
-        "day1": "6h58m19s",
-        "diffday1": "+1h45m50s",
-        "total": "7h5m19s",
-        "diffoverall": "+1h51m50s",
-        "vehicle": ""
-      },
-      {
-        "rank": 111,
         "bib": "377",
         "firstname": "Dmitriy",
         "lastname": "Martynov",
@@ -3511,7 +3488,7 @@
         "vehicle": ""
       },
       {
-        "rank": 112,
+        "rank": 111,
         "bib": "471",
         "firstname": "Petr",
         "lastname": "Tichý",
@@ -3527,7 +3504,7 @@
         "vehicle": ""
       },
       {
-        "rank": 113,
+        "rank": 112,
         "bib": "451",
         "firstname": "Vlatko",
         "lastname": "Vurnek",
@@ -3543,7 +3520,7 @@
         "vehicle": ""
       },
       {
-        "rank": 114,
+        "rank": 113,
         "bib": "427",
         "firstname": "Martin",
         "lastname": "Hiden",
@@ -3559,7 +3536,7 @@
         "vehicle": ""
       },
       {
-        "rank": 115,
+        "rank": 114,
         "bib": "318",
         "firstname": "Eric",
         "lastname": "Groenewoud",
@@ -3575,7 +3552,7 @@
         "vehicle": ""
       },
       {
-        "rank": 116,
+        "rank": 115,
         "bib": "322",
         "firstname": "Simon",
         "lastname": "Nutter",
@@ -3591,7 +3568,7 @@
         "vehicle": ""
       },
       {
-        "rank": 117,
+        "rank": 116,
         "bib": "481",
         "firstname": "Gregory",
         "lastname": "Yungblut",
@@ -3607,7 +3584,7 @@
         "vehicle": ""
       },
       {
-        "rank": 118,
+        "rank": 117,
         "bib": "400",
         "firstname": "Thomas",
         "lastname": "Easton",
@@ -3623,7 +3600,7 @@
         "vehicle": ""
       },
       {
-        "rank": 119,
+        "rank": 118,
         "bib": "352",
         "firstname": "Bogdan",
         "lastname": "Apetri",
@@ -3639,7 +3616,7 @@
         "vehicle": ""
       },
       {
-        "rank": 120,
+        "rank": 119,
         "bib": "360",
         "firstname": "Xavier",
         "lastname": "Ferrer Soldevila",
@@ -3655,7 +3632,7 @@
         "vehicle": ""
       },
       {
-        "rank": 121,
+        "rank": 120,
         "bib": "461",
         "firstname": "Robert",
         "lastname": "Mckee",
@@ -3671,7 +3648,7 @@
         "vehicle": ""
       },
       {
-        "rank": 122,
+        "rank": 121,
         "bib": "480",
         "firstname": "Dan",
         "lastname": "Fredriksen",
@@ -3687,7 +3664,7 @@
         "vehicle": ""
       },
       {
-        "rank": 123,
+        "rank": 122,
         "bib": "397",
         "firstname": "Manuel",
         "lastname": "Brunner",
@@ -3703,7 +3680,7 @@
         "vehicle": ""
       },
       {
-        "rank": 124,
+        "rank": 123,
         "bib": "460",
         "firstname": "Lauri",
         "lastname": "Kodres",
@@ -3719,7 +3696,7 @@
         "vehicle": ""
       },
       {
-        "rank": 125,
+        "rank": 124,
         "bib": "365",
         "firstname": "Reimo",
         "lastname": "Ruubel",
@@ -3735,7 +3712,7 @@
         "vehicle": ""
       },
       {
-        "rank": 126,
+        "rank": 125,
         "bib": "380",
         "firstname": "Jaring",
         "lastname": "Huitema",
@@ -3751,7 +3728,7 @@
         "vehicle": ""
       },
       {
-        "rank": 127,
+        "rank": 126,
         "bib": "385",
         "firstname": "Jack",
         "lastname": "Pearce",
@@ -3767,7 +3744,7 @@
         "vehicle": ""
       },
       {
-        "rank": 128,
+        "rank": 127,
         "bib": "472",
         "firstname": "Julian",
         "lastname": "Uhl",
@@ -3783,7 +3760,7 @@
         "vehicle": ""
       },
       {
-        "rank": 129,
+        "rank": 128,
         "bib": "366",
         "firstname": "Jiří",
         "lastname": "Vališ",
@@ -3799,7 +3776,7 @@
         "vehicle": ""
       },
       {
-        "rank": 130,
+        "rank": 129,
         "bib": "314",
         "firstname": "Paul",
         "lastname": "Hunt",
@@ -3815,7 +3792,7 @@
         "vehicle": ""
       },
       {
-        "rank": 131,
+        "rank": 130,
         "bib": "403",
         "firstname": "George",
         "lastname": "Callaghan",
@@ -3831,7 +3808,7 @@
         "vehicle": ""
       },
       {
-        "rank": 132,
+        "rank": 131,
         "bib": "435",
         "firstname": "Martin",
         "lastname": "Drexler",
@@ -3847,7 +3824,7 @@
         "vehicle": ""
       },
       {
-        "rank": 133,
+        "rank": 132,
         "bib": "354",
         "firstname": "Borja",
         "lastname": "Francés Calatayud",
@@ -3863,7 +3840,7 @@
         "vehicle": ""
       },
       {
-        "rank": 134,
+        "rank": 133,
         "bib": "506",
         "firstname": "Karolis",
         "lastname": "Sipavičius",
@@ -3879,7 +3856,7 @@
         "vehicle": ""
       },
       {
-        "rank": 135,
+        "rank": 134,
         "bib": "449",
         "firstname": "Krunoslav",
         "lastname": "Vajdic",
@@ -3895,7 +3872,7 @@
         "vehicle": ""
       },
       {
-        "rank": 136,
+        "rank": 135,
         "bib": "405",
         "firstname": "Joe",
         "lastname": "Easton",
@@ -3911,7 +3888,7 @@
         "vehicle": ""
       },
       {
-        "rank": 137,
+        "rank": 136,
         "bib": "353",
         "firstname": "Gavin",
         "lastname": "Watkins",
@@ -3924,6 +3901,22 @@
         "diffday1": "+2h5m37s",
         "total": "7h25m6s",
         "diffoverall": "+2h11m37s",
+        "vehicle": ""
+      },
+      {
+        "rank": 137,
+        "bib": "494",
+        "firstname": "Martin",
+        "lastname": "Ortmans",
+        "nat": "BEL",
+        "team": "",
+        "prolog": "7m",
+        "offroadtimeday1": "6h58m19s",
+        "tbrpenaltyday1": "",
+        "day1": "7h18m19s",
+        "diffday1": "+2h5m50s",
+        "total": "7h25m19s",
+        "diffoverall": "+2h11m50s",
         "vehicle": ""
       },
       {
@@ -4104,22 +4097,6 @@
       },
       {
         "rank": 149,
-        "bib": "522",
-        "firstname": "Alessio",
-        "lastname": "Serafini",
-        "nat": "ITA",
-        "team": "",
-        "prolog": "7m",
-        "offroadtimeday1": "7h28m23s",
-        "tbrpenaltyday1": "",
-        "day1": "7h28m23s",
-        "diffday1": "+2h15m54s",
-        "total": "7h35m23s",
-        "diffoverall": "+2h21m54s",
-        "vehicle": ""
-      },
-      {
-        "rank": 150,
         "bib": "418",
         "firstname": "Xavier",
         "lastname": "Demeulemeester",
@@ -4135,7 +4112,7 @@
         "vehicle": ""
       },
       {
-        "rank": 151,
+        "rank": 150,
         "bib": "335",
         "firstname": "Jim",
         "lastname": "Fletcher",
@@ -4151,7 +4128,7 @@
         "vehicle": ""
       },
       {
-        "rank": 152,
+        "rank": 151,
         "bib": "350",
         "firstname": "Reinhard",
         "lastname": "Toifl",
@@ -4167,7 +4144,7 @@
         "vehicle": ""
       },
       {
-        "rank": 153,
+        "rank": 152,
         "bib": "437",
         "firstname": "Andrea",
         "lastname": "Lamberti",
@@ -4183,7 +4160,7 @@
         "vehicle": ""
       },
       {
-        "rank": 154,
+        "rank": 153,
         "bib": "319",
         "firstname": "Amaury",
         "lastname": "Baratin",
@@ -4199,7 +4176,7 @@
         "vehicle": ""
       },
       {
-        "rank": 155,
+        "rank": 154,
         "bib": "474",
         "firstname": "Jaime",
         "lastname": "Cadena",
@@ -4215,7 +4192,7 @@
         "vehicle": ""
       },
       {
-        "rank": 156,
+        "rank": 155,
         "bib": "421",
         "firstname": "Anton",
         "lastname": "Hafekost",
@@ -4231,7 +4208,7 @@
         "vehicle": ""
       },
       {
-        "rank": 157,
+        "rank": 156,
         "bib": "477",
         "firstname": "Elwan",
         "lastname": "Baratin",
@@ -4247,7 +4224,7 @@
         "vehicle": ""
       },
       {
-        "rank": 158,
+        "rank": 157,
         "bib": "407",
         "firstname": "Egidijus",
         "lastname": "Gailevicius",
@@ -4260,6 +4237,22 @@
         "diffday1": "+2h23m49s",
         "total": "7h43m18s",
         "diffoverall": "+2h29m49s",
+        "vehicle": ""
+      },
+      {
+        "rank": 158,
+        "bib": "522",
+        "firstname": "Alessio",
+        "lastname": "Serafini",
+        "nat": "ITA",
+        "team": "",
+        "prolog": "7m",
+        "offroadtimeday1": "7h28m23s",
+        "tbrpenaltyday1": "",
+        "day1": "7h38m23s",
+        "diffday1": "+2h25m54s",
+        "total": "7h45m23s",
+        "diffoverall": "+2h31m54s",
         "vehicle": ""
       },
       {
@@ -4632,22 +4625,70 @@
       },
       {
         "rank": 182,
+        "bib": "476",
+        "firstname": "John",
+        "lastname": "Kalliavas",
+        "nat": "USA",
+        "team": "",
+        "prolog": "7m",
+        "offroadtimeday1": "8h48m53s",
+        "tbrpenaltyday1": "",
+        "day1": "8h48m53s",
+        "diffday1": "+3h36m24s",
+        "total": "8h55m53s",
+        "diffoverall": "+3h42m24s",
+        "vehicle": ""
+      },
+      {
+        "rank": 183,
+        "bib": "491",
+        "firstname": "Waylon",
+        "lastname": "Clark",
+        "nat": "USA",
+        "team": "Project Enduro for Veterans, TBT Racing ",
+        "prolog": "7m",
+        "offroadtimeday1": "8h58m41s",
+        "tbrpenaltyday1": "",
+        "day1": "8h58m41s",
+        "diffday1": "+3h46m12s",
+        "total": "9h5m41s",
+        "diffoverall": "+3h52m12s",
+        "vehicle": ""
+      },
+      {
+        "rank": 184,
+        "bib": "361",
+        "firstname": "Maximilian",
+        "lastname": "Schiek",
+        "nat": "DEU",
+        "team": "Oh my Balls Racing by ktc",
+        "prolog": "7m",
+        "offroadtimeday1": "8h59m25s",
+        "tbrpenaltyday1": "",
+        "day1": "8h59m25s",
+        "diffday1": "+3h46m56s",
+        "total": "9h6m25s",
+        "diffoverall": "+3h52m56s",
+        "vehicle": ""
+      },
+      {
+        "rank": 185,
         "bib": "517",
         "firstname": "Jan",
         "lastname": "Révai",
         "nat": "CZE",
         "team": "Adventure Academy",
         "prolog": "7m",
-        "offroadtimeday1": "9h6s",
+        "offroadtimeday1": "8h59m43s",
         "tbrpenaltyday1": "",
-        "day1": "9h6s",
-        "diffday1": "+3h47m37s",
-        "total": "9h7m6s",
-        "diffoverall": "+3h53m37s",
+        "day1": "8h59m43s",
+        "diffday1": "+3h47m14s",
+        "total": "9h6m43s",
+        "diffoverall": "+3h53m14s",
         "vehicle": ""
       },
       {
-        "rank": 183,
+        "rank": 186,
         "bib": "346",
         "firstname": "Jari",
         "lastname": "Mutikainen",
@@ -4663,57 +4704,6 @@
         "vehicle": ""
       },
       {
-        "rank": 184,
-        "bib": "476",
-        "firstname": "John",
-        "lastname": "Kalliavas",
-        "nat": "USA",
-        "team": "",
-        "prolog": "7m",
-        "offroadtimeday1": "8h1m17s",
-        "tbrpenaltyday1": "3h15m",
-        "day1": "11h16m17s",
-        "diffday1": "+6h3m48s",
-        "total": "11h23m17s",
-        "diffoverall": "+6h9m48s",
-        "status": "AB1",
-        "vehicle": ""
-      },
-      {
-        "rank": 185,
-        "bib": "491",
-        "firstname": "Waylon",
-        "lastname": "Clark",
-        "nat": "USA",
-        "team": "Project Enduro for Veterans, TBT Racing ",
-        "prolog": "7m",
-        "offroadtimeday1": "8h10m49s",
-        "tbrpenaltyday1": "3h15m",
-        "day1": "11h25m49s",
-        "diffday1": "+6h13m20s",
-        "total": "11h32m49s",
-        "diffoverall": "+6h19m20s",
-        "status": "AB1",
-        "vehicle": ""
-      },
-      {
-        "rank": 186,
-        "bib": "361",
-        "firstname": "Maximilian",
-        "lastname": "Schiek",
-        "nat": "DEU",
-        "team": "Oh my Balls Racing by ktc",
-        "prolog": "7m",
-        "offroadtimeday1": "8h12m12s",
-        "tbrpenaltyday1": "3h15m",
-        "day1": "11h27m12s",
-        "diffday1": "+6h14m43s",
-        "total": "11h34m12s",
-        "diffoverall": "+6h20m43s",
-        "status": "AB1",
-        "vehicle": ""
-      },
-      {
         "rank": 187,
         "bib": "511",
         "firstname": "Christopher",
@@ -4721,13 +4711,12 @@
         "nat": "CAN",
         "team": "",
         "prolog": "7m",
-        "offroadtimeday1": "8h29m16s",
-        "tbrpenaltyday1": "3h15m",
-        "day1": "11h44m16s",
-        "diffday1": "+6h31m47s",
-        "total": "11h51m16s",
-        "diffoverall": "+6h37m47s",
-        "status": "AB1",
+        "offroadtimeday1": "9h16m53s",
+        "tbrpenaltyday1": "",
+        "day1": "9h16m53s",
+        "diffday1": "+4h4m24s",
+        "total": "9h23m53s",
+        "diffoverall": "+4h10m24s",
         "vehicle": ""
       },
       {
@@ -8389,22 +8378,6 @@
       },
       {
         "rank": 29,
-        "bib": "1133",
-        "firstname": "Jian",
-        "lastname": "Li",
-        "nat": "CHN",
-        "team": "CFMOTO CHINA",
-        "prolog": "",
-        "offroadtimeday1": "4h40m35s",
-        "tbrpenaltyday1": "",
-        "day1": "4h40m35s",
-        "diffday1": "+1h12m29s",
-        "total": "4h40m35s",
-        "diffoverall": "+1h12m29s",
-        "vehicle": ""
-      },
-      {
-        "rank": 30,
         "bib": "1108",
         "firstname": "Rafal",
         "lastname": "Sobczak",
@@ -8420,7 +8393,7 @@
         "vehicle": ""
       },
       {
-        "rank": 31,
+        "rank": 30,
         "bib": "1102",
         "firstname": "Robert",
         "lastname": "Svendsen",
@@ -8436,7 +8409,7 @@
         "vehicle": ""
       },
       {
-        "rank": 32,
+        "rank": 31,
         "bib": "1116",
         "firstname": "Patrick",
         "lastname": "Trahan",
@@ -8452,7 +8425,7 @@
         "vehicle": ""
       },
       {
-        "rank": 33,
+        "rank": 32,
         "bib": "1135",
         "firstname": "Peter",
         "lastname": "Taschler",
@@ -8468,7 +8441,7 @@
         "vehicle": ""
       },
       {
-        "rank": 34,
+        "rank": 33,
         "bib": "1138",
         "firstname": "Pau",
         "lastname": "Puerto",
@@ -8484,7 +8457,7 @@
         "vehicle": ""
       },
       {
-        "rank": 35,
+        "rank": 34,
         "bib": "1134",
         "firstname": "Andrea",
         "lastname": "Goga",
@@ -8497,6 +8470,23 @@
         "diffday1": "+2h19m57s",
         "total": "5h48m3s",
         "diffoverall": "+2h19m57s",
+        "vehicle": ""
+      },
+      {
+        "rank": 35,
+        "bib": "1133",
+        "firstname": "Jian",
+        "lastname": "Li",
+        "nat": "CHN",
+        "team": "CFMOTO CHINA",
+        "prolog": "",
+        "offroadtimeday1": "3h29m55s",
+        "tbrpenaltyday1": "3h30m",
+        "day1": "6h59m55s",
+        "diffday1": "+3h31m49s",
+        "total": "6h59m55s",
+        "diffoverall": "+3h31m49s",
+        "status": "AB1",
         "vehicle": ""
       },
       {
@@ -8857,6 +8847,22 @@
       },
       {
         "rank": 21,
+        "bib": "1207",
+        "firstname": "Byungkyu",
+        "lastname": "Kang",
+        "nat": "KOR",
+        "team": "KTM PANGYO / ADVENTURE61",
+        "prolog": "",
+        "offroadtimeday1": "4h31m6s",
+        "tbrpenaltyday1": "",
+        "day1": "4h21m4s",
+        "diffday1": "+52m33s",
+        "total": "4h21m4s",
+        "diffoverall": "+52m33s",
+        "vehicle": ""
+      },
+      {
+        "rank": 22,
         "bib": "1201",
         "firstname": "Ralf",
         "lastname": "Zeisberg",
@@ -8872,7 +8878,7 @@
         "vehicle": ""
       },
       {
-        "rank": 22,
+        "rank": 23,
         "bib": "1224",
         "firstname": "Jarno",
         "lastname": "Bierman",
@@ -8888,7 +8894,7 @@
         "vehicle": ""
       },
       {
-        "rank": 23,
+        "rank": 24,
         "bib": "1214",
         "firstname": "Mark",
         "lastname": "Newton",
@@ -8904,7 +8910,7 @@
         "vehicle": ""
       },
       {
-        "rank": 24,
+        "rank": 25,
         "bib": "1216",
         "firstname": "Rick",
         "lastname": "Smits",
@@ -8917,22 +8923,6 @@
         "diffday1": "+1h1m48s",
         "total": "4h30m19s",
         "diffoverall": "+1h1m48s",
-        "vehicle": ""
-      },
-      {
-        "rank": 25,
-        "bib": "1207",
-        "firstname": "Byungkyu",
-        "lastname": "Kang",
-        "nat": "KOR",
-        "team": "KTM PANGYO / ADVENTURE61",
-        "prolog": "",
-        "offroadtimeday1": "4h31m6s",
-        "tbrpenaltyday1": "",
-        "day1": "4h31m6s",
-        "diffday1": "+1h2m35s",
-        "total": "4h31m6s",
-        "diffoverall": "+1h2m35s",
         "vehicle": ""
       },
       {
