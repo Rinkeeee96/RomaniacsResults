@@ -3552,22 +3552,6 @@
       },
       {
         "rank": 115,
-        "bib": "318",
-        "firstname": "Eric",
-        "lastname": "Groenewoud",
-        "nat": "NLD",
-        "team": "Nithrone Red Goat Racing Team Berm Stick",
-        "prolog": "7m",
-        "offroadtimeday1": "7h1m15s",
-        "tbrpenaltyday1": "",
-        "day1": "7h1m15s",
-        "diffday1": "+1h48m46s",
-        "total": "7h8m15s",
-        "diffoverall": "+1h54m46s",
-        "vehicle": ""
-      },
-      {
-        "rank": 116,
         "bib": "322",
         "firstname": "Simon",
         "lastname": "Nutter",
@@ -3583,7 +3567,7 @@
         "vehicle": ""
       },
       {
-        "rank": 117,
+        "rank": 116,
         "bib": "481",
         "firstname": "Gregory",
         "lastname": "Yungblut",
@@ -3599,7 +3583,7 @@
         "vehicle": ""
       },
       {
-        "rank": 118,
+        "rank": 117,
         "bib": "400",
         "firstname": "Thomas",
         "lastname": "Easton",
@@ -3615,7 +3599,7 @@
         "vehicle": ""
       },
       {
-        "rank": 119,
+        "rank": 118,
         "bib": "352",
         "firstname": "Bogdan",
         "lastname": "Apetri",
@@ -3631,7 +3615,7 @@
         "vehicle": ""
       },
       {
-        "rank": 120,
+        "rank": 119,
         "bib": "360",
         "firstname": "Xavier",
         "lastname": "Ferrer Soldevila",
@@ -3647,7 +3631,7 @@
         "vehicle": ""
       },
       {
-        "rank": 121,
+        "rank": 120,
         "bib": "461",
         "firstname": "Robert",
         "lastname": "Mckee",
@@ -3663,7 +3647,7 @@
         "vehicle": ""
       },
       {
-        "rank": 122,
+        "rank": 121,
         "bib": "480",
         "firstname": "Dan",
         "lastname": "Fredriksen",
@@ -3679,7 +3663,7 @@
         "vehicle": ""
       },
       {
-        "rank": 123,
+        "rank": 122,
         "bib": "397",
         "firstname": "Manuel",
         "lastname": "Brunner",
@@ -3695,7 +3679,7 @@
         "vehicle": ""
       },
       {
-        "rank": 124,
+        "rank": 123,
         "bib": "460",
         "firstname": "Lauri",
         "lastname": "Kodres",
@@ -3711,7 +3695,7 @@
         "vehicle": ""
       },
       {
-        "rank": 125,
+        "rank": 124,
         "bib": "365",
         "firstname": "Reimo",
         "lastname": "Ruubel",
@@ -3727,7 +3711,7 @@
         "vehicle": ""
       },
       {
-        "rank": 126,
+        "rank": 125,
         "bib": "380",
         "firstname": "Jaring",
         "lastname": "Huitema",
@@ -3743,7 +3727,7 @@
         "vehicle": ""
       },
       {
-        "rank": 127,
+        "rank": 126,
         "bib": "385",
         "firstname": "Jack",
         "lastname": "Pearce",
@@ -3759,7 +3743,7 @@
         "vehicle": ""
       },
       {
-        "rank": 128,
+        "rank": 127,
         "bib": "472",
         "firstname": "Julian",
         "lastname": "Uhl",
@@ -3775,7 +3759,7 @@
         "vehicle": ""
       },
       {
-        "rank": 129,
+        "rank": 128,
         "bib": "366",
         "firstname": "Jiří",
         "lastname": "Vališ",
@@ -3791,7 +3775,7 @@
         "vehicle": ""
       },
       {
-        "rank": 130,
+        "rank": 129,
         "bib": "314",
         "firstname": "Paul",
         "lastname": "Hunt",
@@ -3807,7 +3791,7 @@
         "vehicle": ""
       },
       {
-        "rank": 131,
+        "rank": 130,
         "bib": "403",
         "firstname": "George",
         "lastname": "Callaghan",
@@ -3823,7 +3807,7 @@
         "vehicle": ""
       },
       {
-        "rank": 132,
+        "rank": 131,
         "bib": "435",
         "firstname": "Martin",
         "lastname": "Drexler",
@@ -3839,7 +3823,7 @@
         "vehicle": ""
       },
       {
-        "rank": 133,
+        "rank": 132,
         "bib": "354",
         "firstname": "Borja",
         "lastname": "Francés Calatayud",
@@ -3855,7 +3839,7 @@
         "vehicle": ""
       },
       {
-        "rank": 134,
+        "rank": 133,
         "bib": "506",
         "firstname": "Karolis",
         "lastname": "Sipavičius",
@@ -3871,7 +3855,7 @@
         "vehicle": ""
       },
       {
-        "rank": 135,
+        "rank": 134,
         "bib": "449",
         "firstname": "Krunoslav",
         "lastname": "Vajdic",
@@ -3887,7 +3871,7 @@
         "vehicle": ""
       },
       {
-        "rank": 136,
+        "rank": 135,
         "bib": "405",
         "firstname": "Joe",
         "lastname": "Easton",
@@ -3903,7 +3887,7 @@
         "vehicle": ""
       },
       {
-        "rank": 137,
+        "rank": 136,
         "bib": "353",
         "firstname": "Gavin",
         "lastname": "Watkins",
@@ -3919,7 +3903,7 @@
         "vehicle": ""
       },
       {
-        "rank": 138,
+        "rank": 137,
         "bib": "494",
         "firstname": "Martin",
         "lastname": "Ortmans",
@@ -3935,7 +3919,7 @@
         "vehicle": ""
       },
       {
-        "rank": 139,
+        "rank": 138,
         "bib": "386",
         "firstname": "Marko",
         "lastname": "Perttilä",
@@ -3951,7 +3935,7 @@
         "vehicle": ""
       },
       {
-        "rank": 140,
+        "rank": 139,
         "bib": "327",
         "firstname": "Razvan",
         "lastname": "Avramescu",
@@ -3964,6 +3948,22 @@
         "diffday1": "+2h8m10s",
         "total": "7h27m39s",
         "diffoverall": "+2h14m10s",
+        "vehicle": ""
+      },
+      {
+        "rank": 140,
+        "bib": "318",
+        "firstname": "Eric",
+        "lastname": "Groenewoud",
+        "nat": "NLD",
+        "team": "Nithrone Red Goat Racing Team Berm Stick",
+        "prolog": "7m",
+        "offroadtimeday1": "7h1m15s",
+        "tbrpenaltyday1": "",
+        "day1": "7h21m15s",
+        "diffday1": "+2h8m46s",
+        "total": "7h28m15s",
+        "diffoverall": "+2h14m46s",
         "vehicle": ""
       },
       {
