@@ -2869,6 +2869,24 @@
       },
       {
         "rank": 52,
+        "bib": "497",
+        "firstname": "Ramon",
+        "lastname": "Palau",
+        "nat": "ESP",
+        "team": "Squadra Pons Protour",
+        "prolog": "3m30s",
+        "day1": "6h22m45s",
+        "diffday1": "+1h10m16s",
+        "offroadtimeday2": "5h50m2s",
+        "tbrpenaltyday2": "",
+        "day2": "5h41m52s",
+        "diffday2": "+59m13s",
+        "total": "12h8m7s",
+        "diffoverall": "+2h11m9s",
+        "vehicle": ""
+      },
+      {
+        "rank": 53,
         "bib": "433",
         "firstname": "Dies",
         "lastname": "Van Den Berg",
@@ -2886,7 +2904,7 @@
         "vehicle": ""
       },
       {
-        "rank": 53,
+        "rank": 54,
         "bib": "412",
         "firstname": "Martin",
         "lastname": "Eichberger",
@@ -2904,7 +2922,7 @@
         "vehicle": ""
       },
       {
-        "rank": 54,
+        "rank": 55,
         "bib": "324",
         "firstname": "Leo",
         "lastname": "Santana",
@@ -2922,7 +2940,7 @@
         "vehicle": ""
       },
       {
-        "rank": 55,
+        "rank": 56,
         "bib": "339",
         "firstname": "Jose",
         "lastname": "Alvarizaes",
@@ -2940,7 +2958,7 @@
         "vehicle": ""
       },
       {
-        "rank": 56,
+        "rank": 57,
         "bib": "510",
         "firstname": "Luke",
         "lastname": "Chessell",
@@ -2955,24 +2973,6 @@
         "diffday2": "+1h30m58s",
         "total": "12h14m28s",
         "diffoverall": "+2h17m30s",
-        "vehicle": ""
-      },
-      {
-        "rank": 57,
-        "bib": "497",
-        "firstname": "Ramon",
-        "lastname": "Palau",
-        "nat": "ESP",
-        "team": "Squadra Pons Protour",
-        "prolog": "3m30s",
-        "day1": "6h22m45s",
-        "diffday1": "+1h10m16s",
-        "offroadtimeday2": "5h50m2s",
-        "tbrpenaltyday2": "",
-        "day2": "5h50m2s",
-        "diffday2": "+1h7m23s",
-        "total": "12h16m17s",
-        "diffoverall": "+2h19m19s",
         "vehicle": ""
       },
       {
@@ -8809,10 +8809,10 @@
         "diffday1": "+48m11s",
         "offroadtimeday2": "4h35m34s",
         "tbrpenaltyday2": "",
-        "day2": "4h35m34s",
-        "diffday2": "+1h42s",
-        "total": "9h5m41s",
-        "diffoverall": "+1h51m43s",
+        "day2": "4h34m28s",
+        "diffday2": "+59m36s",
+        "total": "9h4m35s",
+        "diffoverall": "+1h50m37s",
         "vehicle": ""
       },
       {
@@ -9514,10 +9514,10 @@
         "diffday1": "+2h19m57s",
         "offroadtimeday2": "5h33m11s",
         "tbrpenaltyday2": "",
-        "day2": "5h33m11s",
-        "diffday2": "+2h39m27s",
-        "total": "11h21m14s",
-        "diffoverall": "+4h49m59s",
+        "day2": "5h23m39s",
+        "diffday2": "+2h29m55s",
+        "total": "11h11m42s",
+        "diffoverall": "+4h40m27s",
         "vehicle": ""
       },
       {
@@ -10188,13 +10188,12 @@
         "prolog": "",
         "day1": "6h46m17s",
         "diffday1": "+3h17m46s",
-        "offroadtimeday2": "7h5m48s",
-        "tbrpenaltyday2": "1h25m",
-        "day2": "8h30m48s",
-        "diffday2": "+5h8m31s",
-        "total": "15h17m5s",
-        "diffoverall": "+8h15m47s",
-        "status": " AB2",
+        "offroadtimeday2": "8h55m18s",
+        "tbrpenaltyday2": "",
+        "day2": "8h55m18s",
+        "diffday2": "+5h33m1s",
+        "total": "15h41m35s",
+        "diffoverall": "+8h40m17s",
         "vehicle": ""
       },
       {
